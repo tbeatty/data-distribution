@@ -204,13 +204,13 @@ When used with an `ActivityRunner`, the `ActivitySuccessHandler` or `ActivityFai
 
 ## Example
 
-As an example, `examples/scheduler.py` implements a job scheduling service that does the following:
+As an example, `example/scheduler.py` implements a job scheduling service that does the following:
 
   * Delivers a dump of random data to Amazon S3 once every hour
   * Delivers a dump of random data to a remote ftp server at midnight on weekdays
   * Notifies users of successful delivery and system admin of failures
 
-The scheduler is implemented by the [Advanced Python Scheduler](http://pythonhosted.org/APScheduler/) which provides
+The scheduler is implemented by the [Advanced Python Scheduler](http://pythonhosted.org/APScheduler/), which provides
 
   * Configurable scheduling mechanisms
   * Support for multiple, simultaneously active job stores including RAM, a simple file-based database, any RDBMS, MongoDB, Redis
