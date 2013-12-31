@@ -1,0 +1,17 @@
+version: 1
+formatters:
+  simple:
+    format: '%(asctime)-15s %(levelname)s:%(name)s:%(threadName)s:%(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://sys.stdout
+loggers:
+  boto:
+    level: INFO
+    handlers: [console]
+root:
+  level: DEBUG
+  handlers: [console]
