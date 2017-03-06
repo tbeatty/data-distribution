@@ -1,6 +1,6 @@
 # data-distribution
 
-This project is a proof of concept software library used for distribution of data. It can integrate with any data source and can easily be extended to support sophisticated use cases.
+This project is a demo I did for a job application several years ago involving generic distribution of data. It can integrate with any data source and can easily be extended to support sophisticated use cases.
 
 The domain is modeled by a small set of generic objects:
 
